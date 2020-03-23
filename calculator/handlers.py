@@ -14,6 +14,7 @@ def read_number():
     """
     while True:
         keyboard_input = input("Operand: ")
+        print("function keyboard input", keyboard_input)
 
         try:
             number = int(keyboard_input)

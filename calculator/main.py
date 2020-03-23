@@ -1,4 +1,6 @@
-from calculator import compute, read_operation, read_number, should_stop
+from calculator import (
+    compute, read_operation, read_number, should_stop
+)
 
 result = None
 number = None
